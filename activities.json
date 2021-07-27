@@ -1,0 +1,51 @@
+{
+    "activities": [
+        {
+            "name": "python3 autotimer.py",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 15:21:28",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 15:21:26"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 15:26:16",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 15:26:13"
+                }
+            ]
+        },
+        {
+            "name": "Google Chrome -> YouTube / Shanks meeting with whitebeard and stopping the war.",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 15:21:55",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 26,
+                    "start_time": "2021-07-27 15:21:28"
+                }
+            ]
+        },
+        {
+            "name": "Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 15:26:35",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 18,
+                    "start_time": "2021-07-27 15:26:16"
+                }
+            ]
+        }
+    ]
+}

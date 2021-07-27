@@ -58,6 +58,8 @@ def get_chrome_url_x():
         instead of url the name of the website and the title of the page is returned seperated by '/' 
         '''
         detail_full = get_active_window_raw()
+        encoding = 'utf-8'
+        detail_full = detail_full.decode(encoding)
         detail_list = detail_full.split(' - ')
         detail_list.pop()
         detail_list = detail_list[::-1]
@@ -66,7 +68,10 @@ def get_chrome_url_x():
 
 def get_active_window_x():
     full_detail = get_active_window_raw()
-    detail_list = None if None else full_detail.split(" - ")
+    encoding = 'utf-8'
+    test = full_detail.decode(encoding)
+    print(test)
+    detail_list = None if None else test.split(" - ")
     new_window_name = detail_list[-1]
     return new_window_name
 
