@@ -46,7 +46,20 @@ def get_chrome_url():
         window = win32gui.GetForegroundWindow()
         chromeControl = auto.ControlFromHandle(window)
         edit = chromeControl.EditControl()
-        return 'https://' + edit.GetValuePattern().Value
+        control = auto.GetFocusedControl()
+        controlList = []
+        while control:
+            controlList.insert(0, control)
+            control = control.GetParentControl()
+            
+        control = controlList[0 if len(controlList) == 1 else 1]
+            
+        address_control = auto.FindControl(control, lambda c, d: 
+                                                    isinstance(c, auto.EditControl))
+
+        # print('Current URL:')
+        # print(address_control.GetValuePattern().Value)
+        return 'https://' + address_control.GetValuePattern().Value
     elif sys.platform in ['Mac', 'darwin', 'os2', 'os2emx']:
         textOfMyScript = """tell app "google chrome" to get the url of the active tab of window 1"""
         s = NSAppleScript.initWithSource_(
@@ -68,10 +81,12 @@ except Exception:
 try:
     while True:
         previous_site = ""
+        #for windows
         if sys.platform not in ['linux', 'linux2']:
             new_window_name = get_active_window()
             if 'Google Chrome' in new_window_name:
                 new_window_name = url_to_name(get_chrome_url())
+        #for linux
         if sys.platform in ['linux', 'linux2']:
             new_window_name = l.get_active_window_x()
             if 'Google Chrome' in new_window_name:
@@ -79,8 +94,8 @@ try:
 
         
         if active_window_name != new_window_name:
-            print(active_window_name)
             activity_name = active_window_name
+            print(activity_name)
 
             if not first_time:
                 end_time = datetime.datetime.now()

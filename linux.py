@@ -70,7 +70,6 @@ def get_active_window_x():
     full_detail = get_active_window_raw()
     encoding = 'utf-8'
     test = full_detail.decode(encoding)
-    print(test)
     detail_list = None if None else test.split(" - ")
     new_window_name = detail_list[-1]
     return new_window_name

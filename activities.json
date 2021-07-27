@@ -1,49 +1,332 @@
 {
     "activities": [
         {
-            "name": "python3 autotimer.py",
+            "name": "activity-timer - Visual Studio Code",
             "time_entries": [
                 {
                     "days": 0,
-                    "end_time": "2021-07-27 15:21:28",
-                    "hours": 0,
-                    "minutes": 0,
-                    "seconds": 2,
-                    "start_time": "2021-07-27 15:21:26"
-                },
-                {
-                    "days": 0,
-                    "end_time": "2021-07-27 15:26:16",
+                    "end_time": "2021-07-27 19:36:48",
                     "hours": 0,
                     "minutes": 0,
                     "seconds": 3,
-                    "start_time": "2021-07-27 15:26:13"
+                    "start_time": "2021-07-27 19:36:44"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:36:55",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 19:36:52"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:50",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 8,
+                    "start_time": "2021-07-27 19:39:42"
                 }
             ]
         },
         {
-            "name": "Google Chrome -> YouTube / Shanks meeting with whitebeard and stopping the war.",
+            "name": "-",
             "time_entries": [
                 {
                     "days": 0,
-                    "end_time": "2021-07-27 15:21:55",
+                    "end_time": "2021-07-27 19:36:52",
                     "hours": 0,
                     "minutes": 0,
-                    "seconds": 26,
-                    "start_time": "2021-07-27 15:21:28"
+                    "seconds": 4,
+                    "start_time": "2021-07-27 19:36:48"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:37:07",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 19:37:04"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:34",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2021-07-27 19:38:30"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:47",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 7,
+                    "start_time": "2021-07-27 19:38:39"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:52",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:38:51"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:02",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:38:59"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:11",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:39:08"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:14",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:39:13"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:17",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:39:16"
                 }
             ]
         },
         {
-            "name": "Visual Studio Code",
+            "name": "activity.py - activity-timer - Visual Studio Code",
             "time_entries": [
                 {
                     "days": 0,
-                    "end_time": "2021-07-27 15:26:35",
+                    "end_time": "2021-07-27 19:36:57",
                     "hours": 0,
                     "minutes": 0,
-                    "seconds": 18,
-                    "start_time": "2021-07-27 15:26:16"
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:36:55"
+                }
+            ]
+        },
+        {
+            "name": "activities.json - activity-timer - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:37:04",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 6,
+                    "start_time": "2021-07-27 19:36:57"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:37:14",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 5,
+                    "start_time": "2021-07-27 19:37:09"
+                }
+            ]
+        },
+        {
+            "name": "omni.on5.co.id",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:37:09",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:37:07"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:37:16",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:37:14"
+                }
+            ]
+        },
+        {
+            "name": "autotimer.py - activity-timer - Visual Studio Code",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:30",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 15,
+                    "start_time": "2021-07-27 19:38:15"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:39",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 5,
+                    "start_time": "2021-07-27 19:38:34"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:51",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 19:38:47"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:54",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:38:52"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:08",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 6,
+                    "start_time": "2021-07-27 19:39:02"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:16",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:39:14"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:25",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 19:39:21"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:35",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:39:33"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:42",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 3,
+                    "start_time": "2021-07-27 19:39:39"
+                }
+            ]
+        },
+        {
+            "name": "Search",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:56",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:38:54"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:57",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:38:56"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:13",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:39:11"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:21",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2021-07-27 19:39:17"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:27",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:39:25"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:33",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 1,
+                    "start_time": "2021-07-27 19:39:32"
+                },
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:39",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2021-07-27 19:39:35"
+                }
+            ]
+        },
+        {
+            "name": "notion.so",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:38:59",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 2,
+                    "start_time": "2021-07-27 19:38:57"
+                }
+            ]
+        },
+        {
+            "name": "freecodecamp.org",
+            "time_entries": [
+                {
+                    "days": 0,
+                    "end_time": "2021-07-27 19:39:32",
+                    "hours": 0,
+                    "minutes": 0,
+                    "seconds": 4,
+                    "start_time": "2021-07-27 19:39:27"
                 }
             ]
         }
