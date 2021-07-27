@@ -1,6 +1,5 @@
 from __future__ import print_function
 import time
-from os import system
 from activity import *
 import json
 import datetime
@@ -20,7 +19,6 @@ start_time = datetime.datetime.now()
 activeList = AcitivyList([])
 first_time = True
 
-
 def url_to_name(url):
     string_list = url.split('/')
     return string_list[2]
@@ -31,13 +29,15 @@ def get_active_window():
     if sys.platform in ['Windows', 'win32', 'cygwin']:
         window = win32gui.GetForegroundWindow()
         _active_window_name = win32gui.GetWindowText(window)
+        print(_active_window_name)
+        _active_window_name = None if None else _active_window_name.split(" - ")
+        _active_window_name = _active_window_name[-1]
     elif sys.platform in ['Mac', 'darwin', 'os2', 'os2emx']:
         _active_window_name = (NSWorkspace.sharedWorkspace()
                                .activeApplication()['NSApplicationName'])
     else:
         print("sys.platform={platform} is not supported."
               .format(platform=sys.platform))
-        print(sys.version)
     return _active_window_name
 
 
